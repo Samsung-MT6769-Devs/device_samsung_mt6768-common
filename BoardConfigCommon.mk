@@ -110,4 +110,4 @@ TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 BOARD_VNDK_VERSION := current
 
 # Inherit from the proprietary version
-include vendor/samsung/mt6768-common/BoardConfigVendor.mk
+-include vendor/samsung/mt6768-common/BoardConfigVendor.mk
