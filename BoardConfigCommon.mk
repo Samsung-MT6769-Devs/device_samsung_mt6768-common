@@ -61,9 +61,6 @@ BOARD_MKBOOTIMG_ARGS := \
 	--dtb $(TARGET_PREBUILT_DTB) \
 	--dtb_offset $(BOARD_DTB_OFFSET)
 
-# Manifest
-DEVICE_MANIFEST_FILE ?= $(COMMON_PATH)/manifest.xml
-DEVICE_MATRIX_FILE ?= $(COMMON_PATH)/compatibility_matrix.xml
 
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 8539602944
